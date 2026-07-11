@@ -1,29 +1,47 @@
-# primetrade-assignment
-Exploratory Data Analysis of Bitcoin Fear &amp; Greed Index and Hyperliquid Historical Trading Data.
-# Bitcoin Market Sentiment Analysis
+# Bitcoin Market Sentiment vs Hyperliquid Trader Analysis
 
 ## Objective
 
-Analyze the relationship between Bitcoin Fear & Greed Index and Hyperliquid trader performance.
+This project analyzes the relationship between Bitcoin market sentiment (Fear & Greed Index) and trader performance using Hyperliquid historical trading data.
 
 ## Dataset
 
-- Historical Hyperliquid Trading Data
 - Bitcoin Fear & Greed Index
+- Hyperliquid Historical Trading Data
 
-## Libraries
+## Technologies Used
 
+- Python
 - Pandas
 - NumPy
 - Matplotlib
 
-## Workflow
+## Project Workflow
 
-1. Data Loading
-2. Data Cleaning
-3. Date Conversion
-4. Merge Datasets
-5. Exploratory Data Analysis
-6. Visualization
-7. Insights
-8. Conclusion
+- Data Loading
+- Data Cleaning
+- Date Conversion
+- Dataset Merging
+- Exploratory Data Analysis
+- Visualization
+- Key Insights
+
+## Key Insights
+
+- Trading activity varies across market sentiment.
+- Average Closed PnL differs between Fear and Greed periods.
+- Trading volume increases during Greed markets.
+- Leverage usage changes with market sentiment.
+
+## Repository Structure
+
+```
+analysis.ipynb
+README.md
+historical_data.csv
+fear_greed_index.csv
+```
+
+## Author
+
+Meera Jagadeesh H
